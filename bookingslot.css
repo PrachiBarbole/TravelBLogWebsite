@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Booking Section Styles */
+.booking-section {
+    background-image: url('booking.jpeg'); /* Path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.booking-container {
+    border: 3px solid black; 
+    background-color:#7bef81; /* Semi-transparent white background */
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.booking-container h2 {
+    font-size: 2.5rem;
+    color:black;
+    margin-bottom: 20px;
+}
+
+.booking-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.booking-form label {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.booking-form input, .booking-form select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+.booking-form input[type="date"], .booking-form input[type="number"] {
+    color:black;
+}
+
+.btn-book {
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    background-color:brown;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-book:hover {
+    
+    background-color:darkblue;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .booking-container h2 {
+        font-size: 2rem;
+    }
+
+    .btn-book {
+        background-image:url('submit.png');
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+}
+body{
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center center; /* Centers the image both horizontally and vertically */
+    background-size: contain; /* Adjusts the image to fit within the container, without stretching */
+    height: 100vh; /* Ensures the body takes up the full viewport height */
+    margin: 0;
+}
+h1{
+    margin-top: 100px;
+    border: double red;
+    font-style: italic;
+    text-align: center;
+    color:black;
+}
+h2{
+    text-align: center;
+    font-size: large initial;
+}

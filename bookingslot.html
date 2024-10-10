@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog Booking</title>
+    <link rel="stylesheet" href="bookingslot.css">
+</head>
+<body>
+    
+   <!-- <form action="../HTML/submit.html" method="post">-->
+    <!-- Booking Section -->
+    <section class="booking-section">
+        <div class="booking-container">
+            <h2>Book Your Next Adventure</h2>
+            <form class="booking-form" action="submit.png" method="post">
+                <!-- Destination Field -->
+                 
+                <div class="form-group">
+                    <label for="destination">Destination:</label>
+                    <select id="destination" name="destination" required>
+                        <option value="" disabled selected>Select your destination</option>
+                        <option value="Pune">Pune, Pune</option>
+                        <option value="bali">Pune, Bali</option>
+                        <option value="tokyo">Pune, Manali</option>
+                        <option value="nyc">Pune, Maldives</option>
+                        <option value="paris">Pune, Kanyakumari</option>
+                        <option value="paris">Pune, Goa</option>
+                        <option value="paris">Pune, Lonavala</option>
+                        <option value="paris">Pune, Mahabaleshwar</option>
+                        <option value="paris">Pune, Kerala</option>
+
+                    </select>
+                </div>
+
+                <!-- Date Fields -->
+                <div class="form-group">
+                    <label for="checkin">Check-in Date:</label>
+                    <input type="date" id="checkin" name="checkin" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="checkout">Check-out Date:</label>
+                    <input type="date" id="checkout" name="checkout" required>
+                </div>
+
+                <!-- Number of Guests -->
+                <div class="form-group">
+                    <label for="guests">Number of Guests:</label>
+                    <input type="number" id="guests" name="guests" min="1" max="10" required>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn-book">Book Now</button>
+                
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
+
+

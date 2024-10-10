@@ -1,0 +1,55 @@
+.destinations {
+    background-color:darkmagenta; /* White background */
+    padding: 50px;
+    margin: 50px auto; /* Center the section */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 1000px; /* Limit width */
+    text-align: center; /* Center text */
+}
+
+.destinations h2 {
+    color:wheat; /* Dark text color */
+    margin-bottom: 50px;
+    text-decoration: solid 3px;
+}
+
+.destination {
+    margin: 50px 0; /* Space between destinations */
+    border: 1px solid white; /* Light border around each destination */
+    border-radius: 40px; /* Rounded corners */
+    padding: 50px; /* Padding inside each destination */
+    transition: box-shadow 10s; /* Transition effect for hover */
+}
+
+.destination:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Shadow effect on hover */
+}
+
+.destination-img {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 20px; /* Rounded corners for images */
+}
+
+.destination h3 {
+    color:antiquewhite; /* Bootstrap primary color */
+    margin: 10px 0; /* Space around title */
+}
+
+.destination p {
+    color:white; /* Dark gray text */
+}
+
+.read-more {
+    display: inline-block; /* Make it a block for padding */
+    margin-top: 10px;
+    padding: 10px 15px; /* Padding for button */
+    background-color: #007BFF; /* Bootstrap primary color */
+    color: #fff; /* White text */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.read-more:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

@@ -1,0 +1,69 @@
+/* Reset Default Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* About Section Styling */
+.about-section {
+    background-color: black; /* Black background */
+    padding: 60px 20px; /* Adds spacing around the section */
+    text-align: center; /* Centers the content */
+    font-family: Arial, sans-serif;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    color: white; /* Change text color to white for visibility */
+    margin-bottom: 50px;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    color: white; /* Change text color to white for visibility */
+    line-height: 3;
+    margin-bottom: 20px;
+}
+
+/* Team Section Styling */
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-member h4 {
+    font-size: 1.3rem;
+    color: white; /* Change text color to white */
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #ccc; /* Lighter text color for contrast */
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+    .team {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
